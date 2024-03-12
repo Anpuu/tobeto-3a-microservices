@@ -33,7 +33,7 @@ eureka.client.service-url.defaultZone: Eureka sunucusunun adresini belirtir. Di�
 Discovery Server, mikro servislerin kaydedildiği ve bulunduğu yerdir. Bu proje, Eureka sunucusunu kullanarak servislerin keşfedilmesini sağlar. Discovery Server, bir Spring Boot uygulamasıdır ve 8761 numaralı bir port üzerinde çalışır.
 
 Yapılandırma
-Discovery Server, application.yml dosyasında yapılandırılır:
+Discovery Server, `application.yml` dosyasında yapılandırılır:
 
 spring:
   application:
