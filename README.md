@@ -9,7 +9,7 @@ API Gateway, gelen istekleri yönlendirmek ve mikro servisler arasında iletişi
 ### Yapılandırma
 
 API Gateway, `application.yml` dosyasında yapılandırılır:
-
+```
 server:
   port: 8080
 
@@ -20,8 +20,8 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka <br>
-
+      defaultZone: http://localhost:8761/eureka
+```
 
 server.port: API Gateway'in çalışacağı port numarasını belirtir.<br>
 spring.application.name: Uygulamanın adını belirtir.<br>
@@ -35,7 +35,8 @@ Discovery Server, mikro servislerin kaydedildiği ve bulunduğu yerdir. Bu proje
 Yapılandırma
 Discovery Server, `application.yml` dosyasında yapılandırılır:
 
-spring:
+```
+spring: 
   application:
     name: eureka-server
 
@@ -46,12 +47,12 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
-
+```
     
-spring.application.name: Uygulamanın adını belirtir.<br><br>
-server.port: Discovery Server'in çalışacağı port numarasını belirtir.<br><br>
-eureka.client.fetch-registry: Eureka sunucusundan hizmet kayıtlarını alıp almayacağını belirtir. Bu durumda false olarak ayarlanmıştır çünkü bu sunucu bir Eureka istemcisi değildir.<br><br>
-eureka.client.register-with-eureka: Bu sunucunun kendini Eureka sunucusuna kaydedip kaydetmeyeceğini belirtir. Bu durumda false olarak ayarlanmıştır çünkü bu sunucu bir Eureka istemcisi değildir.<br><br>
+spring.application.name: Uygulamanın adını belirtir.<br>
+server.port: Discovery Server'in çalışacağı port numarasını belirtir.<br>
+eureka.client.fetch-registry: Eureka sunucusundan hizmet kayıtlarını alıp almayacağını belirtir. Bu durumda false olarak ayarlanmıştır çünkü bu sunucu bir Eureka istemcisi değildir.<br>
+eureka.client.register-with-eureka: Bu sunucunun kendini Eureka sunucusuna kaydedip kaydetmeyeceğini belirtir. Bu durumda false olarak ayarlanmıştır çünkü bu sunucu bir Eureka istemcisi değildir.<br>
 
 
 
