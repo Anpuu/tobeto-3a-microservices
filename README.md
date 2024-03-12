@@ -48,10 +48,10 @@ eureka:
     register-with-eureka: false
 
     
-spring.application.name: Uygulamanın adını belirtir.
-server.port: Discovery Server'in çalışacağı port numarasını belirtir.
-eureka.client.fetch-registry: Eureka sunucusundan hizmet kayıtlarını alıp almayacağını belirtir. Bu durumda false olarak ayarlanmıştır çünkü bu sunucu bir Eureka istemcisi değildir.
-eureka.client.register-with-eureka: Bu sunucunun kendini Eureka sunucusuna kaydedip kaydetmeyeceğini belirtir. Bu durumda false olarak ayarlanmıştır çünkü bu sunucu bir Eureka istemcisi değildir.
+spring.application.name: Uygulamanın adını belirtir.<br>
+server.port: Discovery Server'in çalışacağı port numarasını belirtir.<br>
+eureka.client.fetch-registry: Eureka sunucusundan hizmet kayıtlarını alıp almayacağını belirtir. Bu durumda false olarak ayarlanmıştır çünkü bu sunucu bir Eureka istemcisi değildir.<br>
+eureka.client.register-with-eureka: Bu sunucunun kendini Eureka sunucusuna kaydedip kaydetmeyeceğini belirtir. Bu durumda false olarak ayarlanmıştır çünkü bu sunucu bir Eureka istemcisi değildir.<br>
 
 
 
