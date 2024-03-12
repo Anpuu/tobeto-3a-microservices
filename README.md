@@ -20,12 +20,12 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://localhost:8761/eureka <br>
 
 
-server.port: API Gateway'in çalışacağı port numarasını belirtir.
-spring.application.name: Uygulamanın adını belirtir.
-eureka.client.service-url.defaultZone: Eureka sunucusunun adresini belirtir. Diğer mikro servislerin kayıtlı olduğu sunucuya erişmek için kullanılır.
+server.port: API Gateway'in çalışacağı port numarasını belirtir.<br>
+spring.application.name: Uygulamanın adını belirtir.<br>
+eureka.client.service-url.defaultZone: Eureka sunucusunun adresini belirtir. Diğer mikro servislerin kayıtlı olduğu sunucuya erişmek için kullanılır.<br>
 
 -----
 
